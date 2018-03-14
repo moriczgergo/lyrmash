@@ -1,0 +1,20 @@
+{
+  "name": "lyrmash",
+  "version": "1.0.0",
+  "description": "A Twitter bot that mashes lyrics and tweets them.",
+  "main": "index.js",
+  "author": "skiilaa",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "deasync": "^0.1.12",
+    "dotenv": "^5.0.1",
+    "lyricist": "^2.2.2",
+    "sentence-generator": "^1.0.1",
+    "twit": "^2.2.9"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node scrape.js"
+  }
+}
